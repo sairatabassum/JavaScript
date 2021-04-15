@@ -10,5 +10,18 @@ console.log(typeof(num1))
 // String Length
 
 var name="Saira Tabassum";
-document.write("Length of string= "+name.length);
+var len=name.length
+document.write("Length of string= "+len+"<br>");
 
+// Input from user
+
+var name= prompt("Enter your name: ");
+document.write("Input: "+name+"<br>");
+
+// Index string
+
+var name="Saira Tabassum";
+document.write(name.charAt(1));
+
+
+// 
