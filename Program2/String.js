@@ -21,7 +21,11 @@ document.write("Input: "+name+"<br>");
 // Index string
 
 var name="Saira Tabassum";
-document.write(name.charAt(1));
+document.write(name.charAt(1)+"<br>");
 
 
-// 
+// UpperCase  & LowerCase
+
+var name="Saira Tabassum"
+document.write(name.toUpperCase()+"<br>")
+document.write(name.toLowerCase()+"<br>")
