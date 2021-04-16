@@ -35,3 +35,6 @@ x=10,y=20,z=5,k=30;
 document.write(x<y&&z<k,'<br>');
 document.write(x<y || z>k ,'<br>');
 
+document.write(!true,'<br>');
+document.write(!false,'<br>');
+
