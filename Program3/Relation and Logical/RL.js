@@ -28,4 +28,10 @@ document.write(50!="50","<br>");
 
 // Logical Operator
 
+var x,y,z,k;
+
+x=10,y=20,z=5,k=30;
+
+document.write(x<y&&z<k,'<br>');
+document.write(x<y || z>k ,'<br>');
 
