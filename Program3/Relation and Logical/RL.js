@@ -24,5 +24,8 @@ document.write(50!=="50","<br>")
 
 // Only value check
 document.write(50=="50","<br>");
-document.write(50!="50","<br>")
+document.write(50!="50","<br>");
+
+// Logical Operator
+
 
