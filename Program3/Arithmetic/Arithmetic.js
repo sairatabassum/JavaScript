@@ -1,4 +1,4 @@
-// + ,- , * ,/  ,%  . **(Exponent)
+// + ,- , * ,/  ,%  . **(Exponent) , ++ , --
 
 document.write(7+2+"<br>");
 
