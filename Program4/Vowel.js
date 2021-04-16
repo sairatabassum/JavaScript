@@ -1,4 +1,4 @@
-// Vowel
+// Vowel Check
 
 var z=prompt("Enter a character: ");
 
