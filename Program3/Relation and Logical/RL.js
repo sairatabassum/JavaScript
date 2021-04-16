@@ -8,5 +8,21 @@ document.write(num1<num2,"<br>");
 
 document.write(num1>num2,"<br>");
 
+document.write(num1<=num2,"<br>");
 
+document.write(num1>=num2,"<br>");
+
+document.write(num1==num2,"<br>");
+
+document.write(num1!=num2,"<br>");
+
+document.write(50==50,"<br>");
+
+// Check value & Data type
+document.write(50==="50","<br>")
+document.write(50!=="50","<br>")
+
+// Only value check
+document.write(50=="50","<br>");
+document.write(50!="50","<br>")
 
