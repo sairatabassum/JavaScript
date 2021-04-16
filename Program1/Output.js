@@ -48,4 +48,8 @@ console.log(Number("12"))
 console.log(Number(true))
 console.log(Number(false))
 
+// Take input
+
+var num1=prompt("Input ");
+document.write(num1);
 
