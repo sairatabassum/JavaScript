@@ -35,3 +35,12 @@ document.write('<br>',lang);
 
 // Two Array Concat
 
+var fruit=["Orange","Mango"];
+var snacks=["Fry","Ktchup"];
+
+var x=fruit.concat(snacks);
+
+document.write('<br>',x);
+
+
+
