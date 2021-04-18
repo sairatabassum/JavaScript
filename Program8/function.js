@@ -4,7 +4,7 @@ function sum(x,y)
 {
 
     var res=x+y;
-    document.write(res);
+    return res;
 
 }
 
@@ -14,4 +14,6 @@ x=parseInt(prompt("Enter number1: "));
 y=parseInt(prompt("Enter number2: "));
 
 // Calling Function
-sum(x,y);
+var res=sum(x,y);
+
+document.write(res);
