@@ -49,7 +49,7 @@ var n= new Array();
 
 for(var i=0;i<5;i++){
 
-    // n[i]=parseInt(prompt("Enter number "+parseInt(i+1)));
+    n[i]=parseInt(prompt("Enter number "+parseInt(i+1)));
 
 }
 
@@ -70,6 +70,7 @@ na.unshift("etu");
 document.write('<br>'+na);
 
 // splice(position of add,deletecount,list of string that you want to add)
+// Adding element
 
 var po=["pong","tong","kong"];
 po.splice(1,0,"po","ko");
@@ -80,4 +81,25 @@ document.write("<br>",po);
 po.splice(1,2);
 document.write('<br>'+po);
 
+
+// Slice Array
+var n_ar=po.slice(2);
+document.write('<br>'+n_ar);
+document.write('<br>'+po);
+
+// String Sorting
+
+po.sort();
+document.write('<br>'+po);
+po.reverse();
+document.write('<br>'+po);
+
+// Number Sort
+
+var x=[10,5,8,15];
+x.sort(function(a,b){
+    return a-b;
+});
+
+document.write('<br>'+x);
 
