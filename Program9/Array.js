@@ -103,3 +103,11 @@ x.sort(function(a,b){
 
 document.write('<br>'+x);
 
+// Reverse sorting
+
+x.sort(function(a,b){
+    return b-a;
+});
+
+
+document.write('<br>'+x);
