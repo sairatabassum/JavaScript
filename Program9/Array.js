@@ -18,6 +18,7 @@ num[3]=4;
 
 num[4]=5;
 
+
 // Array print
 document.write(num,'<br>');
 document.write(lang,'<br>')
@@ -48,8 +49,35 @@ var n= new Array();
 
 for(var i=0;i<5;i++){
 
-    n[i]=parseInt(prompt("Enter number "+parseInt(i+1)));
+    // n[i]=parseInt(prompt("Enter number "+parseInt(i+1)));
 
 }
 
 document.write("<br>"+n);
+
+// shift opposite of pop
+
+var names=["saira","mitu","tabassum"];
+document.write('<br>'+names);
+names.shift();
+document.write('<br>'+names);
+
+// unshift opposite of push
+
+var na=["saira","mitu","tabassum"];
+document.write('<br>'+na);
+na.unshift("etu");
+document.write('<br>'+na);
+
+// splice(position of add,deletecount,list of string that you want to add)
+
+var po=["pong","tong","kong"];
+po.splice(1,0,"po","ko");
+document.write("<br>",po);
+
+// remove element by splice
+
+po.splice(1,2);
+document.write('<br>'+po);
+
+
