@@ -42,5 +42,14 @@ var x=fruit.concat(snacks);
 
 document.write('<br>',x);
 
+// Array Input
 
+var n= new Array();
 
+for(var i=0;i<5;i++){
+
+    n[i]=parseInt(prompt("Enter number "+parseInt(i+1)));
+
+}
+
+document.write("<br>"+n);
