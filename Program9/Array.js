@@ -94,7 +94,7 @@ document.write('<br>'+po);
 po.reverse();
 document.write('<br>'+po);
 
-// Number Sort
+// Number Sorting
 
 var x=[10,5,8,15];
 x.sort(function(a,b){
