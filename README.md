@@ -9,3 +9,8 @@
 7.   Break & Continue
 8.   Function
 9.   Array
+10.  Math Object
+11.  Document Object Model(ID,Class,Tag)
+12.  QuerySelector
+13.  Onclick
+14.  Create,Add,Remove Elements
