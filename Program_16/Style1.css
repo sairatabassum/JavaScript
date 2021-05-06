@@ -1,17 +1,21 @@
-.my_style1{
+.Tomato{
 
     color: tomato;
     font-size: 3rem;
 }
 
-.my_style2{
+.Yellow{
 
     color:yellow;
     font-size: 3rem;
 }
 
-.my_style3{
+.Violet{
 
     color:violet;
     font-size: 3rem;
+}
+
+body{
+    background-color: wheat;
 }
