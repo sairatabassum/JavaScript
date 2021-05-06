@@ -14,3 +14,4 @@
 12.  QuerySelector
 13.  Onclick
 14.  Create,Add,Remove Elements
+15.  Image-Slider
