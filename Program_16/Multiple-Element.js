@@ -1,6 +1,7 @@
 
+var len= document.querySelectorAll(".Button").length;
 
-for(var i=0;i<3;i++){
+for(var i=0;i<len;i++){
 
     document.querySelectorAll(".Button")[i].addEventListener("click",function(){
 
